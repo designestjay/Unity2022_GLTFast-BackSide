@@ -1,5 +1,5 @@
 {
-  "name": "com.designestjay.gltfast",
+  "name": "com.atteneder.gltfast",
   "version": "5.0.4-backside",
   "displayName": "glTFast BackSide",
   "description": "Custom fork of glTFast with Volvo VCC AR enhancements - Use glTFast to import and export glTF 3D files efficiently at runtime or in the Editor",
