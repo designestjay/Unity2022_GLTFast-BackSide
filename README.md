@@ -20,7 +20,7 @@ Add this to your Unity project's `Packages/manifest.json`:
 ```json
 {
   "dependencies": {
-    "com.designestjay.gltfast": "https://github.com/designestjay/Unity2022_GLTFast-BackSide.git"
+    "com.atteneder.gltfast": "https://github.com/designestjay/Unity2022_GLTFast-BackSide.git"
   }
 }
 ```
