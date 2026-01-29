@@ -2419,6 +2419,13 @@ namespace GLTFast
                     extraData.Populate(node.extras);
                 }
 
+                if (!node.extras.AllNullEX60())
+                {
+                    GameObjectInstantiator goi = instantiator as GameObjectInstantiator;
+                    var extraData = goi.GetGameobject(nodeIndex).AddComponent<ExtraDataEX60>();
+                    extraData.Populate(node.extras);
+                }
+
                 Profiler.EndSample();
             }
 

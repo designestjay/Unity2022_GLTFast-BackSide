@@ -161,6 +161,13 @@ namespace GLTFast.Schema
         public string vis_material_RC10;
         public string vis_material_AC60;
 
+        // EX60
+        public string vis_material_R690;
+        public string vis_material_W3A0;
+        public string vis_material_WC20;
+        public string vis_material_WD20;
+        public string vis_material_WG20;
+
         public bool AllNullEX90 ()
         {
             return vis_material_RD00 == null &&
@@ -189,6 +196,21 @@ namespace GLTFast.Schema
                 vis_material_RC10 ==  null &&
                 vis_material_AC60 == null &&
                 vis_material_R330 == null;
+        }
+
+        public bool AllNullEX60 ()
+        {
+            return vis_material_R690 == null &&
+                vis_material_RC00 == null &&
+                vis_material_RC10 == null &&
+                vis_material_RD00 == null &&
+                vis_material_RD10 == null &&
+                vis_material_RG00 == null &&
+                vis_material_RG10 == null &&
+                vis_material_W3A0 == null &&
+                vis_material_WC20 == null &&
+                vis_material_WD20 == null &&
+                vis_material_WG20 == null;
         }
 
         internal void GltfSeralize(JsonWriter writer)

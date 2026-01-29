@@ -1,8 +1,8 @@
 {
   "name": "com.atteneder.gltfast",
-  "version": "5.0.4-backside",
-  "displayName": "glTFast BackSide",
-  "description": "Custom fork of glTFast with Volvo VCC AR enhancements - Use glTFast to import and export glTF 3D files efficiently at runtime or in the Editor",
+  "version": "5.0.5-backside",
+  "displayName": "glTFast BackSide (Unity 6 Compatible)",
+  "description": "Custom fork of glTFast with Volvo VCC AR enhancements including EX60 support - Use glTFast to import and export glTF 3D files efficiently at runtime or in the Editor. Compatible with Unity 2022.3 and Unity 6.",
   "unity": "2022.3",
   "keywords": [
     "mesh",
@@ -16,7 +16,11 @@
     "basisu",
     "volvo",
     "vcc",
-    "ar"
+    "ar",
+    "ex60",
+    "ex90",
+    "ex30",
+    "es90"
   ],
   "author": {
     "name": "Designest Jay",
